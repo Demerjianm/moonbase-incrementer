@@ -15,7 +15,7 @@ const web3 = new Web3(providerRPC.moonbase); //Change to correct network
 // Variables
 const account_from = {
    privateKey: process.env.private_key,
-   address: '0xf4813be2E691e53EA6c829702cceB575AAd590e1',
+   address: process.env.moonbase_public_address,
 };
 const bytecode = contractFile.evm.bytecode.object;
 const abi = contractFile.abi;
