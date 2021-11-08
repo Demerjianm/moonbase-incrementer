@@ -16,7 +16,7 @@ const web3 = new Web3(providerRPC.moonbase); //Change to correct network
 const account_from = {
    privateKey: process.env.private_key,
 };
-const contractAddress = process.env.contract_address;
+const contractAddress = '0xBDbb68F8F3efb46a183c853a427788CCD516B8C8';
 const _value = 3;
 
 /*
